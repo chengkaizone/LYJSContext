@@ -1,0 +1,52 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>js</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+    
+<div style ="margin-top : 300px">
+    
+    <input type="button" width="400" height="300" value="调用func 0" onclick="func0()">
+
+        </div>
+<div style ="margin-top : 50px">
+    <input type="button" width="400" height="300" value="调用func 1" onclick="func1()" >
+        
+        </div>
+
+
+
+<script type="text/javascript">
+    
+<!-- h5 按钮一点击事件  -->
+function func0() {
+
+    nativeObject.function1() ;
+}
+
+<!-- h5 按钮二点击事件  -->
+function func1() {
+
+   var name = "lance" ;
+   nativeObject.function2WithParam(name) ;
+}
+
+<!-- h5 native端调用方法  -->
+ var nativeSendMessage =  function nativeSendMessage(param1,param2){
+    
+    alert("name:"+param1+" age:"+param2) ;
+}
+</script>
+
+</body>
+</html>

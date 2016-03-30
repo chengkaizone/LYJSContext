@@ -13,6 +13,7 @@
 		7EC0C3551CAB984500BD72E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0C3531CAB984500BD72E5 /* Main.storyboard */; };
 		7EC0C3571CAB984500BD72E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0C3561CAB984500BD72E5 /* Assets.xcassets */; };
 		7EC0C35A1CAB984500BD72E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0C3581CAB984500BD72E5 /* LaunchScreen.storyboard */; };
+		7EC0C3621CAB986900BD72E5 /* js_test.html in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0C3611CAB986900BD72E5 /* js_test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7EC0C3561CAB984500BD72E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EC0C3591CAB984500BD72E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC0C35B1CAB984500BD72E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC0C3611CAB986900BD72E5 /* js_test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = js_test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7EC0C3561CAB984500BD72E5 /* Assets.xcassets */,
 				7EC0C3581CAB984500BD72E5 /* LaunchScreen.storyboard */,
 				7EC0C35B1CAB984500BD72E5 /* Info.plist */,
+				7EC0C3611CAB986900BD72E5 /* js_test.html */,
 				7EC0C34A1CAB984500BD72E5 /* Supporting Files */,
 			);
 			path = LYJSContext;
@@ -139,6 +142,7 @@
 				7EC0C35A1CAB984500BD72E5 /* LaunchScreen.storyboard in Resources */,
 				7EC0C3571CAB984500BD72E5 /* Assets.xcassets in Resources */,
 				7EC0C3551CAB984500BD72E5 /* Main.storyboard in Resources */,
+				7EC0C3621CAB986900BD72E5 /* js_test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
